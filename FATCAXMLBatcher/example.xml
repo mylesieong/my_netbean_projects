@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+	<signature>
+		<author> Myles Ieong </author>
+	</signature>
+	<loop id="open"/>
+	<branch>
+		<projectname> $ </projectname>
+		<style id="$"> $ </style>
+		<date> $ </date>
+	</branch>
+	<loop id="close"/>
+</root>
+

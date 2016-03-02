@@ -1,0 +1,11 @@
+java.lang.RuntimeException: Uncompilable source code - Erroneous sym type: org.archive.crawler.datamodel.CrawlOrder.setAsOrder
+	at org.archive.crawler.settings.SettingsHandler.<init>(SettingsHandler.java:122)
+	at org.archive.crawler.settings.XMLSettingsHandler.<init>(XMLSettingsHandler.java:114)
+	at org.archive.crawler.admin.CrawlJobHandler.loadProfile(CrawlJobHandler.java:379)
+	at org.archive.crawler.admin.CrawlJobHandler.loadProfiles(CrawlJobHandler.java:348)
+	at org.archive.crawler.admin.CrawlJobHandler.<init>(CrawlJobHandler.java:217)
+	at org.archive.crawler.admin.CrawlJobHandler.<init>(CrawlJobHandler.java:186)
+	at org.archive.crawler.Heritrix.<init>(Heritrix.java:405)
+	at org.archive.crawler.Heritrix.<init>(Heritrix.java:393)
+	at org.archive.crawler.Heritrix.doCmdLineArgs(Heritrix.java:718)
+	at org.archive.crawler.Heritrix.main(Heritrix.java:556)
